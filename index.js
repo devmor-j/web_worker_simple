@@ -1,3 +1,5 @@
+import '@picocss/pico'
+
 const resultElement = document.getElementById('result')
 
 const numberInputs = [...document.querySelectorAll('[type="number"][data-number]')]

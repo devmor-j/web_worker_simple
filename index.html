@@ -9,24 +9,24 @@
 
   <title>Workers</title>
 
-  <link rel="stylesheet" href="style.css">
+  <!-- if you vanilla css use styles below -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
 
-  <script src="./index.js" defer></script>
+  <script src="./index.js" type="module"></script>
 
 </head>
 
 <body>
-  <main>
+  <main class="container" style="max-width: 24rem;">
     <h1>Worker Multiplier</h1>
 
     <p>This app will multiply all number inputs. <br>Calculations are done by a web worker.</p>
+    <small style="color: gray; display: block; margin-bottom: 1rem;">add more inputs inside index.html</small>
 
     <div id="numberInputContainer">
       <input type="number" data-number>
       <input type="number" data-number>
     </div>
-
-    <small>add more inputs inside index.html</small>
 
     <p>Result: <span id="result"></span></p>
   </main>
