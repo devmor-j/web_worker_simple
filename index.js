@@ -7,7 +7,7 @@ const numberInputs = [...document.querySelectorAll('[type="number"][data-number]
 // check support for web workers
 
 if ('Worker' in window) {
-  const worker = new Worker('./worker.js');
+  const worker = new Worker('/worker.js');
 
   numberInputs.forEach(el => {
     el.addEventListener('input', () => {
