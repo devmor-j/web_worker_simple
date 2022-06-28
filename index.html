@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Workers</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="./index.js" defer></script>
+
+</head>
+
+<body>
+  <main>
+    <h1>Worker Multiplier</h1>
+
+    <p>This app will multiply all number inputs. <br>Calculations are done by a web worker.</p>
+
+    <div id="numberInputContainer">
+      <input type="number" data-number>
+      <input type="number" data-number>
+    </div>
+
+    <small>add more inputs inside index.html</small>
+
+    <p>Result: <span id="result"></span></p>
+  </main>
+
+  <template id="numberInputTemplate">
+    <input type="number" data-number>
+  </template>
+
+</body>
+
+</html>

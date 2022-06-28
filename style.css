@@ -1,0 +1,30 @@
+body {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: min(24rem, 100%);
+  min-height: 100vh;
+}
+
+input {
+  font-size: inherit;
+  max-width: 95%;
+  letter-spacing: 0.125rem;
+  margin-block: 0.5rem;
+  padding: 0.35rem 0.75rem;
+}
+
+small {
+  font-size: 0.875rem;
+  color: gray;
+}
+
+#result {
+  font-weight: bold;
+}
