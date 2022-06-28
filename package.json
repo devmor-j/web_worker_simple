@@ -1,6 +1,7 @@
 {
   "name": "web_worker",
   "version": "1.0.0",
+  "author": "Morteza Jamhsidi <devmor.j@gmail.com>",
   "description": "",
   "main": "index.js",
   "scripts": {
