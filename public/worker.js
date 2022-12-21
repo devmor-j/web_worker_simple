@@ -6,7 +6,7 @@
 
 self.onmessage = ({ data }) => {
   const isDataInvalid = data.some(
-    d => d === '' || typeof d === NaN
+    d => d === '' || d === NaN
   )
 
   if (isDataInvalid) {
